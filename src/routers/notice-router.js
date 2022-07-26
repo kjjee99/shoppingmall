@@ -10,7 +10,7 @@ const noticeRouter = Router();
 noticeRouter.get("/list", async function (req, res, next) {
   try {
     // 공지사항 전체를 얻음
-    const notices = await noticeService.getNotices();
+    const notices = await noticeService.getNoticeList();
 
     // 공지사항 전체를 JSON 형태로 프론트에 보냄
     res.status(200).json(notices);
