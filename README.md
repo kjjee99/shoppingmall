@@ -4,8 +4,6 @@
 장바구니 제품을 담고,<br>
 제품을 구매할 수 있는 웹사이트입니다.<br>
 
-### ➰https://elice-my-kit.herokuapp.com/
-
 # 서비스 소개
 
 #### 구현 기능
